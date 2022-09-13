@@ -1,0 +1,93 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "simpleLinuxVM"
+        },
+        "adminUsername": {
+            "value": "username"
+        },
+        "authenticationType": {
+            "value": "password"
+        },
+        "adminPasswordOrKey": {
+            "value": "your_password"
+        },
+        "dnsLabelPrefix": {
+            "value": "simplelinuxvm-mbzbr44vnzjw2"
+        },
+        "ubuntuOSVersion": {
+            "value": "18.04-LTS"
+        },
+        "vmSize": {
+            "value": "Standard_B2s"
+        },
+        "virtualNetworkName": {
+            "value": "vNet"
+        },
+        "subnetName": {
+            "value": "Subnet"
+        },
+        "networkSecurityGroupName": {
+            "value": "SecGroupNet"
+        },
+        "existingStorageAcctResourceId": {
+            "value": "your_storage_account_source_id"
+        },
+        "eventhubSku": {
+            "value": "Standard"
+        },
+        "isAutoInflateEnabled": {
+            "value": "True"
+        },
+        "maximumThroughputUnits": {
+            "value": 10
+        },
+        "messageRetentionInDays": {
+            "value": 1
+        },
+        "partitionCount": {
+            "value": 4
+        },
+        "captureEnabled": {
+            "value": true
+        },
+        "captureEncodingFormat": {
+            "value": "Avro"
+        },
+        "captureTime": {
+            "value": 300
+        },
+        "captureSize": {
+            "value": 314572800
+        },
+        "blobContainerName": {
+            "value": "your_blocbcontainer_name"
+        },
+        "captureNameFormat": {
+            "value": "{Namespace}/{EventHub}/{PartitionId}/{Year}/{Month}/{Day}/{Hour}/{Minute}/{Second}"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "clusterName": {
+            "value": "kustombzbr44vnzjw2"
+        },
+        "skuName": {
+            "value": "Standard_D12_v2"
+        },
+        "skuCapacity": {
+            "value": 2
+        },
+        "databaseName": {
+            "value": "kustodb"
+        },
+        "eventHubNamespaceName": {
+            "value": "eventHubmbzbr44vnzjw2"
+        },
+        "eventHubName": {
+            "value": "kustoHub"
+        }
+    }
+}
