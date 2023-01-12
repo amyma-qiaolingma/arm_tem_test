@@ -12,4 +12,3 @@
 
 
 
-[![Deploy To Azure]]
